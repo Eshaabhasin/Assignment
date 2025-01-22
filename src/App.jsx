@@ -21,7 +21,8 @@ import companies from "../src/assets/Pagination container.png"
 import features from "../src/assets/feature.png"
 import img2 from "../src/assets/Image.png"
 import img3 from "../src/assets/Image1.png"
-
+import mob from "../src/assets/Path.png"
+import apple from "../src/assets/Subtract.png"
 function App() {
   const [count, setCount] = useState(0);
 
@@ -364,8 +365,23 @@ I would strongly recommend their services to any organization that is looking fo
     </div>
     <div className="mobile">
       <div className="left-mobile">
-        <h1>Manage Your Services by your
+        <h1 className="manage">Manage Your Services by your<br></br>
         Mobile Phone</h1>
+        <p className="download">Download our app to manage and track your services. Our app <br></br>enables you to stay in touch with our experts and aids you in tracking<br></br> your progress. </p>
+        <p className="get-details">Get the App</p>
+       
+       <button className="get"> <img className="apple-img" src={apple}></img>Get it On <br></br> <b><span>App Store</span></b></button>
+       
+      </div>
+      <div className="right-mobile">
+        <div class="try">
+        <div className="leftsec-mob">
+        <img src={mob}></img>
+        </div>
+        <div className="rightsec-mob">
+        <img src={mob}></img>
+        </div>
+        </div>
       </div>
     </div>
       </div>

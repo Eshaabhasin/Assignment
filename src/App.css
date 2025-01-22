@@ -605,3 +605,50 @@
 .faq-item[open] summary {
   color: #002147;
 }
+.manage{
+  font-size: 32px;
+  font-weight: 800;
+  font-family: "Inter", serif;
+  color:#FFFFFF;
+padding-top: 40px;
+padding-left: 40px;
+}
+.mobile{
+  display: flex;
+  background-color: #1C4670;
+  height:491px;
+}
+.try{
+  display: flex;
+  gap:15px;
+}
+.download{
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Inter", serif;
+  color:#AAB5CD;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+.get-details{
+  margin-top: 40px;
+  color:white;
+  margin-left: 32px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Inter", serif;
+}
+.get{
+  background-color:white;
+  width:150px;
+  height:58px;
+  border-radius:4px;
+  border:1px solid #A5C937;
+  margin-left: 20px;
+  margin-top: 20px;
+  padding-top: 5px;
+}
+.apple-img{
+  padding-top: 5px;
+  padding-right: 30px;
+}
