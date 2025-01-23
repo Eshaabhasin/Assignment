@@ -278,6 +278,7 @@
 }
 .why-section{
   display: flex;
+  margin-top: 50px;
 }
 .why-card{
   background-color:#EDF3FF;
@@ -294,7 +295,6 @@
   font-family: "Inter", serif;
   margin-left: 65px;
   padding-top: 15px;
-  width:60%;
 }
 .whycard-right1{
   background-color:#FEF3EF;
@@ -303,18 +303,25 @@
   border-radius: 10px;
  border:1px solid #FCDDEC;
  margin-top: 20px;
- margin-right: 400px;
+
+}
+.why-rightsection{
+  display: flex;
+  gap:20px;
+  
 }
 .whycard-right2{
-  background-color:#FEF3EF;
+  background-color:#F1FBF3;
   width:300px;
   height:215px;
   border-radius: 10px;
  border:1px solid #FCDDEC;
  margin-top: 20px;
- margin-right: 400px;
 }
 .why-rightsection{
+  display: flex;
+}
+.why-rightsection2{
   display: flex;
 }
 .smile-img{
@@ -331,7 +338,6 @@
   font-size: 15px;
   font-weight:400;
   font-family: "Inter", serif;
-  width:80%;
   margin-left: 30px;
   margin-top: 16px;
   color:#666666;
@@ -651,4 +657,34 @@ padding-left: 40px;
 .apple-img{
   padding-top: 5px;
   padding-right: 30px;
+}
+.container-button{
+  display:flex;
+  height:58px;
+  width:150px;
+  margin-left: 28px;
+  background-color:#FFFFFF;
+  border-radius:4px;
+  border:1px solid #A5C937;
+  margin-top: 20px;
+  padding-top: 5px;
+}
+.cta-content{
+  display: flex;
+  flex-direction: column;
+  margin-top: 9px;
+  padding-right: 10px;
+}
+.apple-img{
+  padding-top: 5px;
+ padding-left: 11px;
+ padding-bottom: 5px;
+}
+.app-store{
+  font-size: 14px;
+  font-weight: 600;
+}
+.left-mob{
+  margin-top: 250px;
+  object-fit: contain;
 }

@@ -23,6 +23,8 @@ import img2 from "../src/assets/Image.png"
 import img3 from "../src/assets/Image1.png"
 import mob from "../src/assets/Path.png"
 import apple from "../src/assets/Subtract.png"
+import symbol from "../src/assets/Symbol5.png"
+import cardsymbol from "../src/assets/Symbol6.png"
 function App() {
   const [count, setCount] = useState(0);
 
@@ -192,27 +194,37 @@ I would strongly recommend their services to any organization that is looking fo
           <div className="left-whysection">
         <p className="about">WHY REGISTERKARO.IN  </p>
         <h1 className="why">Why Choose Register Karo</h1>
-        <p className="why-info">It is with consistent services and results that build trust with the people and that in
+        <p className="why-info">It is with consistent services and results that build trust with the people and that in<br></br>
         turn help us to serve the business better.</p>
         <div className="why-card">
             <img className="smile-img" src={smile}></img>
             <h1 className="why-details">Guaranteed Satisfaction</h1>
             <p className="why-content">We ensure that you stay 100%
             satisfied with our offered services</p>
+            
         </div>
+        
         </div>
         <div className="why-rightsection">
-          <div className="right-cards">
           <div className="whycard-right1">
+          <img className="smile-img" src={symbol}></img>
+            <h1 className="why-details">Confidential & Safe</h1>
+            <p className="why-content">All your private information is safe<br></br>
+            with us</p>
+            
 
           </div>
           <div className="whycard-right2">
-            
+          <img className="smile-img" src={cardsymbol}></img>
+            <h1 className="why-details">No Hidden Fee</h1>
+            <p className="why-content">Everything is put before you with<br></br>
+            no hidden charges or conditions</p>
           </div>
     
-          </div>
+          
         </div>
         </div>
+    
         <div className="our-video">
           <div className="video-left">
             <h1 className="video">0ur Video Introductions</h1>
@@ -369,14 +381,22 @@ I would strongly recommend their services to any organization that is looking fo
         Mobile Phone</h1>
         <p className="download">Download our app to manage and track your services. Our app <br></br>enables you to stay in touch with our experts and aids you in tracking<br></br> your progress. </p>
         <p className="get-details">Get the App</p>
-       
-       <button className="get"> <img className="apple-img" src={apple}></img>Get it On <br></br> <b><span>App Store</span></b></button>
-       
+       <div className="container-button">
+        <div></div>
+        <img className="apple-img" src={apple}></img>
+       <div className="cta-content">
+        <p>Get it on</p>
+        <p className="app-store"><b>App store</b></p>
+        </div>
+        
+        </div>
+        
+        
       </div>
       <div className="right-mobile">
         <div class="try">
         <div className="leftsec-mob">
-        <img src={mob}></img>
+        <img className="left-mob" src={mob}></img>
         </div>
         <div className="rightsec-mob">
         <img src={mob}></img>
